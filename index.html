@@ -2,44 +2,130 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>منبر الحوزة</title>
+
 <style>
+
 body{
+margin:0;
+font-family:tahoma;
 background:#0b0f19;
 color:white;
-font-family:tahoma;
 text-align:center;
-padding:40px;
 }
-button{
+
+header{
+padding:40px 20px;
+}
+
+h1{
+font-size:40px;
+}
+
+.ayah{
+font-size:20px;
+margin:20px;
+color:#ffd700;
+}
+
+.main-btn{
 background:#16c784;
-border:none;
-padding:20px 40px;
+padding:18px 40px;
 font-size:22px;
-color:white;
-border-radius:10px;
+border-radius:12px;
+border:none;
 cursor:pointer;
 }
-a{color:white;text-decoration:none;}
+
+.counter{
+margin-top:20px;
+font-size:18px;
+}
+
+.channels{
+margin-top:60px;
+}
+
+.card{
+background:#111827;
+margin:15px auto;
+padding:20px;
+width:80%;
+border-radius:10px;
+}
+
+a{
+color:white;
+text-decoration:none;
+}
+
+.float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#16c784;
+padding:15px 25px;
+border-radius:50px;
+font-size:18px;
+}
+
 </style>
 </head>
 
 <body>
 
+<header>
+
 <h1>🕌 منبر الحوزة</h1>
 
 <h3>منصة الحوار العقدي المباشر بالحجة والدليل</h3>
 
-<p>
+<div class="ayah">
 ﴿ ادْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِالْحِكْمَةِ
 وَالْمَوْعِظَةِ الْحَسَنَةِ
 وَجَادِلْهُم بِالَّتِي هِيَ أَحْسَنُ ﴾
-</p>
+</div>
 
-<br><br>
+<br>
 
 <a href="https://chatgpt.com/g/g-6999268a6e788191ba73e2adbb8435a8-nqd-qyd-lshy-lthn-shry" target="_blank">
-<button>ابدأ الحوار الآن</button>
+<button class="main-btn">ابدأ الحوار الآن</button>
+</a>
+
+<div class="counter">
+👥 عدد الزوار: <span id="count">1247</span>
+</div>
+
+</header>
+
+<div class="channels">
+
+<h2>📺 قنوات الحوار</h2>
+
+<div class="card">
+<a href="https://youtube.com/@menbar_zedan" target="_blank">
+حوارات وإلزامات
+</a>
+</div>
+
+<div class="card">
+<a href="https://youtube.com/@waleedismail1" target="_blank">
+وليد إسماعيل
+</a>
+</div>
+
+<div class="card">
+<a href="https://youtube.com/@ramyeissa" target="_blank">
+رامي عيسى
+</a>
+</div>
+
+</div>
+
+<a class="float" href="https://chatgpt.com/g/g-6999268a6e788191ba73e2adbb8435a8-nqd-qyd-lshy-lthn-shry">
+💬 حاور الآن
 </a>
 
 </body>
